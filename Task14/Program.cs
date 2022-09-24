@@ -4,7 +4,7 @@ Console.Clear();
 Console.Write("Введите число: ");
 int number = int.Parse(Console.ReadLine());
 
-if (number % 7 == 0)
+/* if (number % 7 == 0)
 {
     if (number % 23 == 0)
     {
@@ -18,5 +18,16 @@ if (number % 7 == 0)
 else 
     {
         Console.WriteLine("Число не кратно");
+    } */
+
+
+
+    if ((number % 23 == 0) && (number % 7 == 0))
+    {
+        Console.WriteLine("Число одновременно кратно 7 и 23");
     }
+    else 
+    {
+        Console.WriteLine("Число не кратно");
+    } 
     
