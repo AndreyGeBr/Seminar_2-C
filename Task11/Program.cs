@@ -10,5 +10,8 @@ int firstDigit = number / 100;
 int lastDigit = number % 10;
 
 //Console.WriteLine($"{firstDigit}{lastDigit}");
+
+//Console.WriteLine((firstDigit*10)+lastDigit);
+
 Console.Write(firstDigit);
-Console.Write(lastDigit);
+Console.Write(lastDigit); 
